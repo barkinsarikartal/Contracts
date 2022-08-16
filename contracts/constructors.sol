@@ -15,6 +15,5 @@ contract constructors {
     }
     function login (address _username, string memory _password) public view returns(bool){
        return (_username == user1.username && user1.password == keccak256(abi.encode(_password)));
-       
     }
 }
