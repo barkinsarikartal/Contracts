@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.4.16 <0.9.0;
 
-contract constructors {
+contract mappings {
 
     mapping(address => bool) public registeredUsers;
     mapping(address => uint256) public favNum;
